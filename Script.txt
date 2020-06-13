@@ -48,6 +48,13 @@ python2 mamadroid.py -f $badapp -d $ANDORID_JARS
 less com.fdhgkjhrtjkjbx.model.txt
 # ^^ Presumably this file is what I will be able to do something interesting with using MaMaDroid once I learn how it works
 ---------------------------------------------------------------------------------------------------------------------------
+#For convinence, put these into you ~/.bashrc files， and excute `source ~/.bashrc`
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/
+export JRE_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/bin/
+export PATH=/home/RaidDisk/nkrepo/jianwen/android-studio/bin:$JAVA_HOME:$JRE_HOME:$PATH
+export ANDROID_JARS=/home/wz/Android/Sdk/platforms/
+
+
 #This command will create some dirs in `pwd`/test/, move the graph dir out from test/
 python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS # `pwd`/test/ is the directory to store samples
 mv `pwd`/test/graphs .
