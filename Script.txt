@@ -54,6 +54,7 @@ export JRE_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/bin/
 export PATH=/home/RaidDisk/nkrepo/jianwen/android-studio/bin:$JAVA_HOME:$JRE_HOME:$PATH
 export ANDROID_JARS=/home/wz/Android/Sdk/platforms/
 
+Your platform directory should contain all platforms
 
 #This command will create some dirs in `pwd`/test/, move the graph dir out from test/
 python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS # `pwd`/test/ is the directory to store samples
