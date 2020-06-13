@@ -47,7 +47,9 @@ python2 mamadroid.py -f $badapp -d $ANDORID_JARS
 # A ton of stuff gets output
 less com.fdhgkjhrtjkjbx.model.txt
 # ^^ Presumably this file is what I will be able to do something interesting with using MaMaDroid once I learn how it works
--------------------------------------------------------------------------
-
+---------------------------------------------------------------------------------------------------------------------------
+#This command will create some dirs in `pwd`/test/, move the graph dir out from test/
 python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS # `pwd`/test/ is the directory to store samples
-
+mv `pwd`/test/graphs .
+mkdir graphs/benign/&&mv graphs/* graphs/benign/ #According to their code, you have to do this.
+python MaMaStat.py -d benign #
