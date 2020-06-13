@@ -1,17 +1,4 @@
-Skip to content
- 
-Search…
-All gists
-Back to GitHub
- @IanWE 
-@maxvonhippel maxvonhippel/runmamadroid.sh
-Created 2 years ago • Report abuse
-1
-1
- Code  Revisions 1  Stars 1  Forks 1
- 
-<script src="https://gist.github.com/maxvonhippel/9df5d30beca2dea0a92ddac30b59e436.js"></script>
-  
+https://gist.github.com/maxvonhippel/9df5d30beca2dea0a92ddac30b59e436, this is the way to address some soot's problem.
 Getting started with MaMaDroid on Mac OS
  runmamadroid.sh
 # Clone MamaDroid
@@ -62,9 +49,5 @@ less com.fdhgkjhrtjkjbx.model.txt
 # ^^ Presumably this file is what I will be able to do something interesting with using MaMaDroid once I learn how it works
 -------------------------------------------------------------------------
 
-## After installation
+python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS # `pwd`/test/ is the directory to store samples
 
-mkdir class
-mkdir family
-mkdir package
-python mamadroid.py -f `pwd`/test/test.apk -d $ANDROID_ARS
