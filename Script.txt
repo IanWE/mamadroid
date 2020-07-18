@@ -61,3 +61,10 @@ python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS # `pwd`/test/ is the directo
 mv `pwd`/test/graphs .
 mkdir graphs/benign/&&mv graphs/* graphs/benign/ #According to their code, you have to do this.
 python MaMaStat.py -d benign #
+
+===============================================================================
+Old version soot is not suitable for new emerging apk
+
+Compile new version soot, and change the entryPointCreator as public or add a getEntrypointer function.
+
+
