@@ -16,9 +16,11 @@ import soot.SootMethod;
 import soot.Unit;
 import soot.jimple.infoflow.android.SetupApplication;
 import soot.jimple.infoflow.solver.cfg.InfoflowCFG;
-import soot.jimple.infoflow.source.data.SourceSinkDefinition;
+import soot.jimple.infoflow.sourcesSinks.definitions.SourceSinkDefinition;
 import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.options.Options;
+import soot.jimple.infoflow.InfoflowConfiguration.StaticFieldTrackingMode;
+import soot.jimple.infoflow.InfoflowConfiguration.ImplicitFlowMode;
 
 public class Appgraph {
 	public static void main(String[] args) {
@@ -29,11 +31,13 @@ public class Appgraph {
 		List<String> toExclude = Arrays.asList("soot.");
 		soot.G.reset();
 		SetupApplication app = new SetupApplication(androidPlatform, appToRun);
-		app.getConfig().setEnableStaticFieldTracking(false); //no static field tracking --nostatic
-		app.getConfig().setAccessPathLength(1); // specify access path length
+		//app.getConfig().setEnableStaticFieldTracking(false); //no static field tracking --nostatic
+		app.getConfig().setStaticFieldTrackingMode(StaticFieldTrackingMode.None); //no static field tracking --nostatic
+		app.getConfig().getAccessPathConfiguration().setAccessPathLength(1); // specify access path length
 		app.getConfig().setFlowSensitiveAliasing(false); // alias flowin
 		try {
-			app.calculateSourcesSinksEntrypoints("/home/RaidDisk/nkrepo/jianwen/mamadroid/soot/SourcesAndSinks.txt");
+			//app.calculateSourcesSinksEntrypoints("./soot/SourcesAndSinks.txt");//BigProblem
+			app.runInfoflow("SourcesAndSinks.txt");//BigProblem
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (XmlPullParserException e) {
@@ -59,10 +63,11 @@ public class Appgraph {
 		Options.v().setPhaseOption("wjap.cgg", "show-lib-meths:true");
 		Options.v().setPhaseOption("jb", "use-original-names:true");
 		Scene.v().loadNecessaryClasses();
-		SootMethod entryPoint = app.getEntryPointCreator().createDummyMain();
-		Options.v().set_main_class(entryPoint.getSignature());
-		Scene.v().setEntryPoints(Collections.singletonList(entryPoint));
-		System.out.println(entryPoint.getActiveBody());
+		//SootMethod entryPoint = app.getEntryPointCreator().createDummyMain();
+		//SootMethod entryPoint = app.entryPointCreator.createDummyMain();
+		//Options.v().set_main_class(entryPoint.getSignature());
+		//Scene.v().setEntryPoints(Collections.singletonList(entryPoint));
+		//System.out.println(entryPoint.getActiveBody());
 		try {
 			PackManager.v().runPacks();
 		}

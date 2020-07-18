@@ -10,14 +10,11 @@ import numpy as np
 
 # This function is called when -wf flag is set to Y to operate the abstraction.
 def fileextract (fileitem,numApps,WHICHSAMPLES,v,PACKETS):
-
 	Packetsfile=[]
-
 	with open('Calls/'+WHICHSAMPLES[v]+'/'+str(fileitem)) as callseq:
 		specificapp=[]
 		for line in callseq:
 			Packetsline=[]
-			
 			for j in line.split('\t')[:-1]:
 				match = False
 				for y in PACKETS:
@@ -114,7 +111,7 @@ def main(WHICHSAMPLES,wf,CORES,callsdatabase=None):
 							if j.startswith(x):
 								match = x
 								break
-                                                print match
+                                                #print match
 						if match == False:
 							splitted = j.split('.')
 							obfcount=0

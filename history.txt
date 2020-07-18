@@ -1,0 +1,302 @@
+    1  nkamg: | 2020-07-03 | 16:55:20: |tmux4298. %4:ls
+    2  nkamg: | 2020-07-03 | 16:55:24: |tmux4298. %4:python filter.py 
+    3  nkamg: | 2020-07-03 | 16:56:42: |tmux4298. %4:ls
+    4  nkamg: | 2020-07-03 | 16:58:25: |tmux4298. %4:vim filter.py 
+    5  nkamg: | 2020-07-03 | 16:58:47: |tmux4298. %4:ls
+    6  nkamg: | 2020-07-03 | 16:58:49: |tmux4298. %4:pytthton filter.py 
+    7  nkamg: | 2020-07-03 | 16:58:57: |tmux4298. %4:python filter.py 
+    8  nkamg: | 2020-07-05 | 21:02:00: |tmux4298. %4:ls
+    9  nkamg: | 2020-07-05 | 21:02:05: |tmux4298. %4:ls benign|wc -l
+   10  nkamg: | 2020-07-05 | 21:02:11: |tmux4298. %4:ls mwalre|wc -l
+   11  nkamg: | 2020-07-05 | 21:02:18: |tmux4298. %4:ls malware|wc -l
+   12  nkamg: | 2020-07-05 | 21:03:00: |tmux4298. %4:ls
+   13  nkamg: | 2020-07-05 | 21:03:04: |tmux4298. %4:cd ..
+   14  nkamg: | 2020-07-05 | 21:03:06: |tmux4298. %4:ls
+   15  nkamg: | 2020-07-05 | 21:03:12: |tmux4298. %4:cd 2020_6_14/
+   16  nkamg: | 2020-07-05 | 21:03:12: |tmux4298. %4:ls
+   17  nkamg: | 2020-07-05 | 21:03:15: |tmux4298. %4:cd feature_extracting/
+   18  nkamg: | 2020-07-05 | 21:03:15: |tmux4298. %4:ls
+   19  nkamg: | 2020-07-05 | 21:03:19: |tmux4298. %4:cd mamadroid/
+   20  nkamg: | 2020-07-05 | 21:03:20: |tmux4298. %4:s
+   21  nkamg: | 2020-07-05 | 21:03:21: |tmux4298. %4:ls
+   22  nkamg: | 2020-07-05 | 21:03:27: |tmux4298. %4:ls test/
+   23  nkamg: | 2020-07-05 | 21:03:46: |tmux4298. %4:vim Script.txt 
+   24  nkamg: | 2020-07-05 | 21:04:23: |tmux4298. %4:ls
+   25  nkamg: | 2020-07-05 | 21:05:34: |tmux4298. %4:ls ../../benign|head -10
+   26  nkamg: | 2020-07-05 | 21:05:45: |tmux4298. %4:python mamadroid.py -f /media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/benign/ -d $ANDROID_JARS
+   27  nkamg: | 2020-07-05 | 21:06:17: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   28  nkamg: | 2020-07-05 | 21:06:27: |tmux4298. %4:ls
+   29  nkamg: | 2020-07-05 | 21:06:37: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   30  nkamg: | 2020-07-05 | 21:06:41: |tmux4298. %4:ls test/
+   31  nkamg: | 2020-07-05 | 21:06:47: |tmux4298. %4:ls
+   32  nkamg: | 2020-07-05 | 21:06:54: |tmux4298. %4:ls family/
+   33  nkamg: | 2020-07-05 | 21:06:58: |tmux4298. %4:ls
+   34  nkamg: | 2020-07-05 | 21:07:03: |tmux4298. %4:ls Features/
+   35  nkamg: | 2020-07-05 | 21:07:07: |tmux4298. %4:ls Features/Families/
+   36  nkamg: | 2020-07-05 | 21:07:25: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   37  nkamg: | 2020-07-05 | 21:07:40: |tmux4298. %4:grep -rn "Could not find or load main class Appgraph"
+   38  nkamg: | 2020-07-05 | 21:07:57: |tmux4298. %4:grep -irn "Could not find or load main class Appgraph"
+   39  nkamg: | 2020-07-05 | 21:08:00: |tmux4298. %4:ls
+   40  nkamg: | 2020-07-05 | 21:08:15: |tmux4298. %4:grep -irn "Appgraph"
+   41  nkamg: | 2020-07-05 | 21:08:45: |tmux4298. %4:source ~/.bashrc
+   42  nkamg: | 2020-07-05 | 21:08:57: |tmux4298. %4:vim ~/.bashrc
+   43  nkamg: | 2020-07-05 | 21:10:15: |tmux4298. %4:source ~/.bashrc
+   44  nkamg: | 2020-07-05 | 21:10:19: |tmux4298. %4:ls
+   45  nkamg: | 2020-07-05 | 21:10:30: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   46  nkamg: | 2020-07-05 | 22:22:25: |tmux4298. %4:ls
+   47  nkamg: | 2020-07-05 | 22:22:26: |tmux4298. %4:ls ..
+   48  nkamg: | 2020-07-05 | 22:22:27: |tmux4298. %4:ls
+   49  nkamg: | 2020-07-05 | 22:22:37: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   50  nkamg: | 2020-07-05 | 22:22:52: |tmux4298. %4:echo $ANDROID_JARS
+   51  nkamg: | 2020-07-05 | 22:23:04: |tmux4298. %4:l /home/nkamg/Android/Sdk/platforms/
+   52  nkamg: | 2020-07-05 | 22:23:06: |tmux4298. %4:ls
+   53  nkamg: | 2020-07-05 | 22:23:53: |tmux4298. %4:vim ~/.bashrc
+   54  nkamg: | 2020-07-05 | 22:25:02: |tmux4298. %4:basedir=$(echo $(pwd)/mamadroid)
+   55  nkamg: | 2020-07-05 | 22:25:03: |tmux4298. %4:ls
+   56  nkamg: | 2020-07-05 | 22:25:18: |tmux4298. %4:cd ..
+   57  nkamg: | 2020-07-05 | 22:25:21: |tmux4298. %4:basedir=$(echo $(pwd)/mamadroid)
+   58  nkamg: | 2020-07-05 | 22:25:27: |tmux4298. %4:cd mamadroid/
+   59  nkamg: | 2020-07-05 | 22:25:27: |tmux4298. %4:ls
+   60  nkamg: | 2020-07-05 | 22:25:32: |tmux4298. %4:ls soot
+   61  nkamg: | 2020-07-05 | 22:25:41: |tmux4298. %4:ls
+   62  nkamg: | 2020-07-05 | 22:25:47: |tmux4298. %4:ls soot
+   63  nkamg: | 2020-07-05 | 22:26:36: |tmux4298. %4:export CLASSPATH="$basedir/.:$basedir/soot/soot-trunk.jar:$basedir/soot/soot-infoflow.jar:$basedir/soot/soot-infoflow-android.jar:$basedir/soot/slf4j-simple-1.7.5.jar:$basedir/soot/slf4j-api-1.7.5.jar:$basedir/soot/axml-2.0.jar:$basedir/soot/sootclasses-trunk-jar-with-dependencies.jar"
+   64  nkamg: | 2020-07-05 | 22:26:51: |tmux4298. %4:javac -cp $CLASSPATH Appgraph.java
+   65  nkamg: | 2020-07-05 | 22:26:55: |tmux4298. %4:ls
+   66  nkamg: | 2020-07-05 | 22:27:09: |tmux4298. %4:cd ..
+   67  nkamg: | 2020-07-05 | 22:27:16: |tmux4298. %4:ls
+   68  nkamg: | 2020-07-05 | 22:27:22: |tmux4298. %4:git clone https://github.com/secure-software-engineering/DroidBench.git
+   69  nkamg: | 2020-07-05 | 22:27:43: |tmux4298. %4:ls
+   70  nkamg: | 2020-07-05 | 22:28:59: |tmux4298. %4:vim ~/.bashrc
+   71  nkamg: | 2020-07-05 | 22:30:19: |tmux4298. %4:ls
+   72  nkamg: | 2020-07-05 | 22:30:22: |tmux4298. %4:ls DroidBench/
+   73  nkamg: | 2020-07-05 | 22:30:26: |tmux4298. %4:ls
+   74  nkamg: | 2020-07-05 | 22:30:32: |tmux4298. %4:cd mamadroid/
+   75  nkamg: | 2020-07-05 | 22:30:33: |tmux4298. %4:ls
+   76  nkamg: | 2020-07-05 | 22:31:26: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   77  nkamg: | 2020-07-05 | 22:32:32: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS >output
+   78  nkamg: | 2020-07-05 | 22:32:39: |tmux4298. %4:vim output 
+   79  nkamg: | 2020-07-05 | 22:33:37: |tmux4298. %4:lls
+   80  nkamg: | 2020-07-05 | 22:33:58: |tmux4298. %4:ls ~/.bashrc
+   81  nkamg: | 2020-07-05 | 22:34:02: |tmux4298. %4:vim ~/.bashrc
+   82  nkamg: | 2020-07-05 | 22:34:38: |tmux4298. %4:cd 
+   83  nkamg: | 2020-07-05 | 22:34:40: |tmux4298. %4:cd -
+   84  nkamg: | 2020-07-05 | 22:34:42: |tmux4298. %4:cd ..
+   85  nkamg: | 2020-07-05 | 22:34:54: |tmux4298. %4:basedir=$(echo $(pwd)/mamadroid)
+   86  nkamg: | 2020-07-05 | 22:34:56: |tmux4298. %4:ls
+   87  nkamg: | 2020-07-05 | 22:34:59: |tmux4298. %4:ls mamadroid
+   88  nkamg: | 2020-07-05 | 22:35:06: |tmux4298. %4:ls
+   89  nkamg: | 2020-07-05 | 22:35:09: |tmux4298. %4:cd mamadroid/
+   90  nkamg: | 2020-07-05 | 22:35:09: |tmux4298. %4:ls
+   91  nkamg: | 2020-07-05 | 22:35:41: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS
+   92  nkamg: | 2020-07-05 | 22:35:56: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS >output
+   93  nkamg: | 2020-07-05 | 22:36:11: |tmux4298. %4:grep -rn RaidDisk
+   94  nkamg: | 2020-07-05 | 22:36:19: |tmux4298. %4:vim Appgraph.java 
+   95  nkamg: | 2020-07-05 | 22:36:43: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS >output
+   96  nkamg: | 2020-07-05 | 22:37:02: |tmux4298. %4:javac -cp $CLASSPATH Appgraph.java
+   97  nkamg: | 2020-07-05 | 22:37:05: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS >output
+   98  nkamg: | 2020-07-05 | 22:37:49: |tmux4298. %4:ls
+   99  nkamg: | 2020-07-05 | 22:38:11: |tmux4298. %4:ls test/
+  100  nkamg: | 2020-07-05 | 22:38:15: |tmux4298. %4:ls test/class/
+  101  nkamg: | 2020-07-05 | 22:38:24: |tmux4298. %4:vim test/class/test.txt 
+  102  nkamg: | 2020-07-05 | 22:39:03: |tmux4298. %4:ls
+  103  nkamg: | 2020-07-05 | 22:39:13: |tmux4298. %4:ls ..
+  104  nkamg: | 2020-07-05 | 22:39:16: |tmux4298. %4:ls
+  105  nkamg: | 2020-07-05 | 22:39:19: |tmux4298. %4:ls graphs/
+  106  nkamg: | 2020-07-05 | 22:39:22: |tmux4298. %4:ls graphs/test/
+  107  nkamg: | 2020-07-05 | 22:39:29: |tmux4298. %4:vim graphs/test/test.txt 
+  108  nkamg: | 2020-07-05 | 22:39:47: |tmux4298. %4:ls
+  109  nkamg: | 2020-07-05 | 22:40:13: |tmux4298. %4:mv `pwd`/test/graphs .
+  110  nkamg: | 2020-07-05 | 22:40:18: |tmux4298. %4:rm -rf graphs/
+  111  nkamg: | 2020-07-05 | 22:40:20: |tmux4298. %4:mv `pwd`/test/graphs .
+  112  nkamg: | 2020-07-05 | 22:40:23: |tmux4298. %4:ls
+  113  nkamg: | 2020-07-05 | 22:40:28: |tmux4298. %4:cd graphs/
+  114  nkamg: | 2020-07-05 | 22:40:29: |tmux4298. %4:ls
+  115  nkamg: | 2020-07-05 | 22:40:32: |tmux4298. %4:cd ..
+  116  nkamg: | 2020-07-05 | 22:40:41: |tmux4298. %4:vim graphs/test.txt 
+  117  nkamg: | 2020-07-05 | 22:41:03: |tmux4298. %4:ls
+  118  nkamg: | 2020-07-05 | 22:41:29: |tmux4298. %4:python MaMaStat.py 
+  119  nkamg: | 2020-07-05 | 22:41:37: |tmux4298. %4:ls
+  120  nkamg: | 2020-07-05 | 22:41:50: |tmux4298. %4:script.sh
+  121  nkamg: | 2020-07-05 | 22:41:54: |tmux4298. %4:vim script.sh
+  122  nkamg: | 2020-07-05 | 22:51:14: |tmux4298. %4:chmod +x script.sh 
+  123  nkamg: | 2020-07-05 | 22:51:19: |tmux4298. %4:ls
+  124  nkamg: | 2020-07-05 | 22:51:23: |tmux4298. %4:ls graphs/
+  125  nkamg: | 2020-07-05 | 22:51:35: |tmux4298. %4:ls
+  126  nkamg: | 2020-07-05 | 22:51:39: |tmux4298. %4:ls graphs/
+  127  nkamg: | 2020-07-05 | 22:51:56: |tmux4298. %4:mdkir graphs/test/
+  128  nkamg: | 2020-07-05 | 22:52:09: |tmux4298. %4:mkdir -P graphs/test/
+  129  nkamg: | 2020-07-05 | 22:52:12: |tmux4298. %4:mkdir -p graphs/test/
+  130  nkamg: | 2020-07-05 | 22:52:14: |tmux4298. %4:ls
+  131  nkamg: | 2020-07-05 | 22:52:16: |tmux4298. %4:ls graphs/
+  132  nkamg: | 2020-07-05 | 22:52:30: |tmux4298. %4:mv graphs/test.txt graphs/test/
+  133  nkamg: | 2020-07-05 | 22:52:31: |tmux4298. %4:ls
+  134  nkamg: | 2020-07-05 | 22:52:37: |tmux4298. %4:python MaMaStat.py 
+  135  nkamg: | 2020-07-05 | 22:52:48: |tmux4298. %4:python MaMaStat.py -d benign
+  136  nkamg: | 2020-07-05 | 22:53:10: |tmux4298. %4:python MaMaStat.py -d test
+  137  nkamg: | 2020-07-05 | 22:53:36: |tmux4298. %4:ls Features/
+  138  nkamg: | 2020-07-05 | 22:53:42: |tmux4298. %4:ls Features/Families/test.csv 
+  139  nkamg: | 2020-07-05 | 22:53:47: |tmux4298. %4:vim Features/Families/test.csv 
+  140  nkamg: | 2020-07-05 | 22:53:54: |tmux4298. %4:ls
+  141  nkamg: | 2020-07-05 | 22:54:22: |tmux4298. %4:vim Features/Packages/test.csv
+  142  nkamg: | 2020-07-05 | 22:54:30: |tmux4298. %4:ls
+  143  nkamg: | 2020-07-05 | 22:54:37: |tmux4298. %4:python MaMaStat.py -d test
+  144  nkamg: | 2020-07-05 | 22:55:35: |tmux4298. %4:vim Features/Packages/test.csv
+  145  nkamg: | 2020-07-05 | 22:56:26: |tmux4298. %4:mkdir Features/Packages/
+  146  nkamg: | 2020-07-05 | 22:56:28: |tmux4298. %4:python MaMaStat.py -d test
+  147  nkamg: | 2020-07-05 | 22:56:37: |tmux4298. %4:ls
+  148  nkamg: | 2020-07-05 | 22:56:39: |tmux4298. %4:ls graphs/
+  149  nkamg: | 2020-07-05 | 22:56:51: |tmux4298. %4:ls Features/
+  150  nkamg: | 2020-07-05 | 22:56:55: |tmux4298. %4:ls Features/Families/
+  151  nkamg: | 2020-07-05 | 22:57:06: |tmux4298. %4:vim Features/Families/test.csv 
+  152  nkamg: | 2020-07-05 | 22:57:36: |tmux4298. %4:ls
+  153  nkamg: | 2020-07-05 | 22:57:43: |tmux4298. %4:vim MaMaStat.py 
+  154  nkamg: | 2020-07-05 | 23:01:02: |tmux4298. %4:python MaMaStat.py -d test
+  155  nkamg: | 2020-07-05 | 23:01:15: |tmux4298. %4:vim MaMaStat.py 
+  156  nkamg: | 2020-07-05 | 23:01:54: |tmux4298. %4:vim callsToFamilies.py
+  157  nkamg: | 2020-07-05 | 23:04:58: |tmux4298. %4:vim MaMaStat.py 
+  158  nkamg: | 2020-07-05 | 23:05:19: |tmux4298. %4:vim callsToFamilies.py
+  159  nkamg: | 2020-07-05 | 23:06:20: |tmux4298. %4:httop
+  160  nkamg: | 2020-07-05 | 23:06:22: |tmux4298. %4:htop
+  161  nkamg: | 2020-07-05 | 23:06:25: |tmux4298. %4:ls
+  162  nkamg: | 2020-07-05 | 23:07:52: |tmux4298. %4:python mamadroid.py -f ../../benign/ -d $ANDROID_JARS 
+  163  nkamg: | 2020-07-05 | 23:11:50: |tmux4298. %4:ls ../../benign/graph
+  164  nkamg: | 2020-07-05 | 23:11:52: |tmux4298. %4:ls ../../benign/graphs
+  165  nkamg: | 2020-07-05 | 23:11:56: |tmux4298. %4:ls
+  166  nkamg: | 2020-07-05 | 23:12:00: |tmux4298. %4:ls graphs/
+  167  nkamg: | 2020-07-05 | 23:12:04: |tmux4298. %4:ls graphs/test/
+  168  nkamg: | 2020-07-05 | 23:12:46: |tmux4298. %4:ls
+  169  nkamg: | 2020-07-05 | 23:13:01: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS 
+  170  nkamg: | 2020-07-05 | 23:13:47: |tmux4298. %4:ls
+  171  nkamg: | 2020-07-05 | 23:13:48: |tmux4298. %4:ls test/
+  172  nkamg: | 2020-07-05 | 23:13:54: |tmux4298. %4:ls test/graphs/
+  173  nkamg: | 2020-07-05 | 23:13:57: |tmux4298. %4:ls
+  174  nkamg: | 2020-07-05 | 23:14:00: |tmux4298. %4:ls graphs/
+  175  nkamg: | 2020-07-05 | 23:14:03: |tmux4298. %4:ls graphs/test/
+  176  nkamg: | 2020-07-05 | 23:14:04: |tmux4298. %4:ls
+  177  nkamg: | 2020-07-05 | 23:14:14: |tmux4298. %4:python mamadroid.py -f test/ -d $ANDROID_JARS 
+  178  nkamg: | 2020-07-05 | 23:14:57: |tmux4298. %4:ls
+  179  nkamg: | 2020-07-05 | 23:15:00: |tmux4298. %4:ls test/
+  180  nkamg: | 2020-07-05 | 23:15:02: |tmux4298. %4:ls
+  181  nkamg: | 2020-07-05 | 23:15:11: |tmux4298. %4:ls test/
+  182  nkamg: | 2020-07-05 | 23:15:50: |tmux4298. %4:python mamadroid.py -f /data/experiment_QiuKefan/2020_6_14/benign/ -d $ANDROID_JARS 
+  183  nkamg: | 2020-07-05 | 23:17:30: |tmux4298. %4:python mamadroid.py -f /data/experiment_QiuKefan/2020_6_14/benign/ -d $ANDROID_JARS >output 2>&1
+  184  nkamg: | 2020-07-05 | 23:18:38: |tmux4298. %4:ls
+  185  nkamg: | 2020-07-05 | 23:18:40: |tmux4298. %4:vim output 
+  186  nkamg: | 2020-07-05 | 23:25:05: |tmux4298. %4:cp /data/experiment_QiuKefan/2020_6_14/benign/0c6246f92f6c019ae1a5fb04e3a0ae17bc3de94e87451b212ebf0698b4679e34.apk test/
+  187  nkamg: | 2020-07-05 | 23:25:07: |tmux4298. %4:ls
+  188  nkamg: | 2020-07-05 | 23:25:08: |tmux4298. %4:ls test/
+  189  nkamg: | 2020-07-05 | 23:25:29: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS
+  190  nkamg: | 2020-07-05 | 23:26:20: |tmux4298. %4:ls
+  191  nkamg: | 2020-07-05 | 23:26:22: |tmux4298. %4:ls test/
+  192  nkamg: | 2020-07-05 | 23:26:24: |tmux4298. %4:ls test/graphs/
+  193  nkamg: | 2020-07-05 | 23:26:30: |tmux4298. %4:ls
+  194  nkamg: | 2020-07-05 | 23:26:34: |tmux4298. %4:ls package
+  195  nkamg: | 2020-07-05 | 23:26:36: |tmux4298. %4:ls
+  196  nkamg: | 2020-07-05 | 23:26:52: |tmux4298. %4:vim test/test.apk 
+  197  nkamg: | 2020-07-05 | 23:27:03: |tmux4298. %4:vim test/0c6246f92f6c019ae1a5fb04e3a0ae17bc3de94e87451b212ebf0698b4679e34.apk 
+  198  nkamg: | 2020-07-05 | 23:27:42: |tmux4298. %4:ls
+  199  nkamg: | 2020-07-05 | 23:27:48: |tmux4298. %4:mv test/test.apk .
+  200  nkamg: | 2020-07-05 | 23:27:57: |tmux4298. %4:ls
+  201  nkamg: | 2020-07-05 | 23:28:03: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS
+  202  nkamg: | 2020-07-05 | 23:28:45: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS >output 2>$1
+  203  nkamg: | 2020-07-05 | 23:28:59: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS >output 2>&1
+  204  nkamg: | 2020-07-05 | 23:29:13: |tmux4298. %4:ls
+  205  nkamg: | 2020-07-05 | 23:29:22: |tmux4298. %4:vim sootOutput/
+  206  nkamg: | 2020-07-05 | 23:29:27: |tmux4298. %4:ls
+  207  nkamg: | 2020-07-05 | 23:29:32: |tmux4298. %4:vim Appgraph.java 
+  208  nkamg: | 2020-07-05 | 23:38:21: |tmux4298. %4:ls
+  209  nkamg: | 2020-07-05 | 23:38:22: |tmux4298. %4:ls soot
+  210  nkamg: | 2020-07-05 | 23:42:03: |tmux4298. %4:ls
+  211  nkamg: | 2020-07-05 | 23:42:19: |tmux4298. %4:mv test/0c6246f92f6c019ae1a5fb04e3a0ae17bc3de94e87451b212ebf0698b4679e34.apk  test1.ap
+  212  nkamg: | 2020-07-05 | 23:42:32: |tmux4298. %4:mv test1.ap test1.ap
+  213  nkamg: | 2020-07-05 | 23:42:36: |tmux4298. %4:mv test1.ap test1.apk
+  214  nkamg: | 2020-07-05 | 23:42:37: |tmux4298. %4:ls
+  215  nkamg: | 2020-07-05 | 23:42:44: |tmux4298. %4:mv test.apk test
+  216  nkamg: | 2020-07-05 | 23:42:54: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS >output 2>$1
+  217  nkamg: | 2020-07-05 | 23:43:02: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS >output 2>&1
+  218  nkamg: | 2020-07-05 | 23:48:25: |tmux4298. %4:ls ../../benign/graphs
+  219  nkamg: | 2020-07-05 | 23:48:33: |tmux4298. %4:ls ../../
+  220  nkamg: | 2020-07-05 | 23:49:11: |tmux4298. %4:ls ../../benign/graphs
+  221  nkamg: | 2020-07-05 | 23:49:12: |tmux4298. %4:ls
+  222  nkamg: | 2020-07-05 | 23:49:15: |tmux4298. %4:ls test
+  223  nkamg: | 2020-07-05 | 23:49:19: |tmux4298. %4:ls ../../benign/graphs
+  224  nkamg: | 2020-07-05 | 23:49:27: |tmux4298. %4:ls ../../benign/class
+  225  nkamg: | 2020-07-05 | 23:49:35: |tmux4298. %4:ls ../../benign/family
+  226  nkamg: | 2020-07-05 | 23:49:37: |tmux4298. %4:ls
+  227  nkamg: | 2020-07-06 | 00:01:19: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS >output 2>$1
+  228  nkamg: | 2020-07-06 | 00:01:25: |tmux4298. %4:python mamadroid.py -f test -d $ANDROID_JARS >output 2>&1
+  229  nkamg: | 2020-07-06 | 00:21:29: |tmux4298. %4:ls
+  230  nkamg: | 2020-07-06 | 00:21:37: |tmux4298. %4:wget https://github.com/secure-software-engineering/FlowDroid/releases/download/v2.7.1/soot-infoflow-cmd-jar-with-dependencies.jar
+  231  nkamg: | 2020-07-06 | 01:12:32: |tmux4298. %4:ls
+  232  nkamg: | 2020-07-06 | 01:12:47: |tmux4298. %4:chmod +x soot-infoflow-cmd-jar-with-dependencies.jar
+  233  nkamg: | 2020-07-06 | 01:14:14: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test/test1.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt 
+  234  nkamg: | 2020-07-06 | 01:15:09: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt 
+  235  nkamg: | 2020-07-06 | 01:15:22: |tmux4298. %4:ls
+  236  nkamg: | 2020-07-06 | 01:15:52: |tmux4298. %4:mv soot-infoflow-cmd-jar-with-dependencies.jar.1 soot-infoflow-cmd-jar-with-dependencies.jar
+  237  nkamg: | 2020-07-06 | 01:15:55: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt 
+  238  nkamg: | 2020-07-06 | 01:16:11: |tmux4298. %4:ls
+  239  nkamg: | 2020-07-06 | 01:16:21: |tmux4298. %4:ls test
+  240  nkamg: | 2020-07-06 | 01:16:25: |tmux4298. %4:ls test*
+  241  nkamg: | 2020-07-06 | 01:16:33: |tmux4298. %4:ls
+  242  nkamg: | 2020-07-06 | 01:16:38: |tmux4298. %4:ls test*
+  243  nkamg: | 2020-07-06 | 01:16:45: |tmux4298. %4:ls
+  244  nkamg: | 2020-07-06 | 01:17:00: |tmux4298. %4:vat packages.txt 
+  245  nkamg: | 2020-07-06 | 01:17:04: |tmux4298. %4:cat packages.txt 
+  246  nkamg: | 2020-07-06 | 01:17:09: |tmux4298. %4:cat packages.txt |wc -l\
+  247  nkamg: | 2020-07-06 | 01:17:18: |tmux4298. %4:cat Packages.txt |wc -l
+  248  nkamg: | 2020-07-06 | 01:17:20: |tmux4298. %4:ls
+  249  nkamg: | 2020-07-06 | 01:17:39: |tmux4298. %4:vim SourcesAndSinks.txt 
+  250  nkamg: | 2020-07-06 | 01:18:06: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt >output
+  251  nkamg: | 2020-07-06 | 01:18:20: |tmux4298. %4:ls
+  252  nkamg: | 2020-07-06 | 01:18:21: |tmux4298. %4:vim output 
+  253  nkamg: | 2020-07-06 | 01:18:39: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt >output &2>1
+  254  nkamg: | 2020-07-06 | 01:19:14: |tmux4298. %4:ls
+  255  nkamg: | 2020-07-06 | 01:19:19: |tmux4298. %4:ls sootOutput/
+  256  nkamg: | 2020-07-06 | 01:19:23: |tmux4298. %4:ls
+  257  nkamg: | 2020-07-06 | 01:19:26: |tmux4298. %4:ls test
+  258  nkamg: | 2020-07-06 | 01:19:27: |tmux4298. %4:ls
+  259  nkamg: | 2020-07-06 | 01:19:31: |tmux4298. %4:ll
+  260  nkamg: | 2020-07-06 | 01:19:53: |tmux4298. %4:ll |more
+  261  nkamg: | 2020-07-06 | 01:20:09: |tmux4298. %4:ls
+  262  nkamg: | 2020-07-06 | 01:21:21: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt >output &2>1
+  263  nkamg: | 2020-07-06 | 01:23:01: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar -a test.apk -p $ANDROID_JARS -s soot_bac/SourcesAndSinks.txt &>output
+  264  nkamg: | 2020-07-06 | 01:23:13: |tmux4298. %4:ls
+  265  nkamg: | 2020-07-06 | 01:23:15: |tmux4298. %4:vim output 
+  266  nkamg: | 2020-07-06 | 01:24:08: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar 
+  267  nkamg: | 2020-07-06 | 01:25:22: |tmux4298. %4:vim Appgraph.java 
+  268  nkamg: | 2020-07-06 | 01:32:08: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar 
+  269  nkamg: | 2020-07-06 | 01:32:15: |tmux4298. %4:vim Appgraph.java 
+  270  nkamg: | 2020-07-06 | 16:00:37: |tmux4298. %4:ls
+  271  nkamg: | 2020-07-06 | 16:00:38: |tmux4298. %4:cd ..
+  272  nkamg: | 2020-07-06 | 16:00:57: |tmux4298. %4:mkdir drebin
+  273  nkamg: | 2020-07-06 | 16:00:58: |tmux4298. %4:ls
+  274  nkamg: | 2020-07-06 | 16:05:58: |tmux4298. %4:ls ..
+  275  nkamg: | 2020-07-06 | 16:07:28: |tmux4298. %4:ls ../benign_15W/|wc -l
+  276  nkamg: | 2020-07-06 | 16:08:01: |tmux4298. %4:ls ..
+  277  nkamg: | 2020-07-06 | 16:08:08: |tmux4298. %4:ls ../benign_15W/
+  278  nkamg: | 2020-07-19 | 02:49:19: |tmux4298. %4:ls
+  279  nkamg: | 2020-07-19 | 02:49:22: |tmux4298. %4:cd mamadroid/
+  280  nkamg: | 2020-07-19 | 02:49:23: |tmux4298. %4:ls
+  281  nkamg: | 2020-07-19 | 02:49:28: |tmux4298. %4:ls test
+  282  nkamg: | 2020-07-19 | 02:49:45: |tmux4298. %4:java -jar soot-infoflow-cmd-jar-with-dependencies.jar 
+  283  nkamg: | 2020-07-19 | 02:49:58: |tmux4298. %4:ls
+  284  nkamg: | 2020-07-19 | 02:50:06: |tmux4298. %4:ls 1
+  285  nkamg: | 2020-07-19 | 02:50:10: |tmux4298. %4:file 1
+  286  nkamg: | 2020-07-19 | 02:50:15: |tmux4298. %4:history 
+  287  nkamg: | 2020-07-19 | 02:50:30: |tmux4298. %4:vim Appgraph.java 
+  288  nkamg: | 2020-07-19 | 02:50:42: |tmux4298. %4:ls
+  289  nkamg: | 2020-07-19 | 02:52:47: |tmux4298. %4:python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS
+  290  nkamg: | 2020-07-19 | 02:53:08: |tmux4298. %4:ls test
+  291  nkamg: | 2020-07-19 | 02:53:15: |tmux4298. %4:python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS
+  292  nkamg: | 2020-07-19 | 02:53:24: |tmux4298. %4:echo $ANDROID_JARS
+  293  nkamg: | 2020-07-19 | 02:53:38: |tmux4298. %4:ls /home/nkamg/Android/Sdk/platforms/
+  294  nkamg: | 2020-07-19 | 02:54:36: |tmux4298. %4:python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS
+  295  nkamg: | 2020-07-19 | 02:58:00: |tmux4298. %4:javac -cp soot/soot-trunk.jar:soot/soot-infoflow.jar:soot/soot-infoflow-android.jar:soot/slf4j-simple-1.7.5.jar:soot/slf4j-api-1.7.5.jar:soot/axml-2.0.jar Appgraph.java
+  296  nkamg: | 2020-07-19 | 03:02:50: |tmux4298. %4:java -Xms4g -Xmx16g -XX:+UseConcMarkSweepGC Appgraph test.apk 
+  297  nkamg: | 2020-07-19 | 03:03:15: |tmux4298. %4:java -Xms4g -Xmx16g -XX:+UseConcMarkSweepGC Appgraph test.apk $ANDROID_PLATFORM
+  298  nkamg: | 2020-07-19 | 03:03:40: |tmux4298. %4:java -Xms4g -Xmx16g -XX:+UseConcMarkSweepGC Appgraph test.apk $ANDROID_JARS
+  299  nkamg: | 2020-07-19 | 03:05:29: |tmux4298. %4:java -Xms4g -Xmx16g -XX:+UseConcMarkSweepGC Appgraph test.apk -d $ANDROID_JARS
+  300  nkamg: | 2020-07-19 | 03:05:58: |tmux4298. %4:python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS
+  301  nkamg: | 2020-07-19 | 03:06:20: |tmux4298. %4:ls
+  302  nkamg: | 2020-07-19 | 03:06:51: |tmux4298. %4:history >history.txt
