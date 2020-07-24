@@ -35,14 +35,6 @@ public class Appgraph {
 		app.getConfig().setStaticFieldTrackingMode(StaticFieldTrackingMode.None); //no static field tracking --nostatic
 		app.getConfig().getAccessPathConfiguration().setAccessPathLength(1); // specify access path length
 		app.getConfig().setFlowSensitiveAliasing(false); // alias flowin
-		try {
-			//app.calculateSourcesSinksEntrypoints("./soot/SourcesAndSinks.txt");//BigProblem
-			app.runInfoflow("SourcesAndSinks.txt");//BigProblem
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (XmlPullParserException e) {
-			e.printStackTrace();
-		}
 
 		PackManager.v().getPack("cg");
 		PackManager.v().getPack("jb");
@@ -57,23 +49,31 @@ public class Appgraph {
 		Options.v().set_include(toInclude);
 		Options.v().set_exclude(toExclude);
 		Options.v().set_output_format(Options.output_format_xml);
-		Options.v().set_soot_classpath("soot-trunk.jar:soot-infoflow.jar:soot-infoflow-android.jar:axml-2.0.jar:slf4j-simple-1.7.5.jar:slf4j-api-1.7.5.jar");
+		//Options.v().set_soot_classpath("soot-trunk.jar:soot-infoflow.jar:soot-infoflow-android.jar:axml-2.0.jar:slf4j-simple-1.7.5.jar:slf4j-api-1.7.5.jar");
 		Options.v().setPhaseOption("cg", "safe-newinstance:true");
 		Options.v().setPhaseOption("cg.spark", "on");
 		Options.v().setPhaseOption("wjap.cgg", "show-lib-meths:true");
 		Options.v().setPhaseOption("jb", "use-original-names:true");
 		Scene.v().loadNecessaryClasses();
-		//SootMethod entryPoint = app.getEntryPointCreator().createDummyMain();
+		try {
+			//app.calculateSourcesSinksEntrypoints("./soot/SourcesAndSinks.txt");//BigProblem
+			app.runInfoflow("SourcesAndSinks.txt");//BigProblem
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (XmlPullParserException e) {
+			e.printStackTrace();
+		}
+		//SootMethod entryPoint = app.getEntryPointCreator().createDummyMain();//recompile android soot
 		//SootMethod entryPoint = app.entryPointCreator.createDummyMain();
 		//Options.v().set_main_class(entryPoint.getSignature());
 		//Scene.v().setEntryPoints(Collections.singletonList(entryPoint));
 		//System.out.println(entryPoint.getActiveBody());
-		try {
-			PackManager.v().runPacks();
-		}
-		catch (Exception f){
-			f.printStackTrace();
-		}
+		//try {
+		//	PackManager.v().runPacks();
+		//}
+		//catch (Exception f){
+		//	f.printStackTrace();
+		//}
 		try (BufferedWriter writer = new BufferedWriter(
 				new FileWriter(
 						new File(filename)))

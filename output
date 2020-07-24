@@ -1,11 +1,64 @@
-graphs/benign/test1.txt:3:<dummyMainClass: com.cmcm.picks.internal.vastvideo.VastReceiver dummyMainMethod_com_cmcm_picks_internal_vastvideo_VastReceiver(android.content.Intent)> ==> ['<com.cmcm.picks.internal.vastvideo.VastReceiver: void <clinit>()>\n']
-graphs/benign/test1.txt:5:<dummyMainClass: com.ksmobile.launcher.notify.ThemeAlarmReceiver dummyMainMethod_com_ksmobile_launcher_notify_ThemeAlarmReceiver(android.content.Intent)> ==> ['<com.ksmobile.launcher.notify.ThemeAlarmReceiver: void <clinit>()>\n', '<android.support.v4.content.WakefulBroadcastReceiver: void <clinit>()>\n']
-graphs/benign/test1.txt:7:<dummyMainClass: com.ksmobile.launcher.theme.ThemeActivity dummyMainMethod_com_ksmobile_launcher_theme_ThemeActivity(android.content.Intent)> ==> ['<com.facebook.ads.ae: void <clinit>()>\n', '<com.facebook.ads.ae: void <clinit>()>\n']
-graphs/benign/test1.txt:9:<dummyMainClass: com.facebook.ads.InterstitialAdActivity dummyMainMethod_com_facebook_ads_InterstitialAdActivity(android.content.Intent)> ==> ['<com.facebook.ads.internal.m.c.c.e: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.a.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.e: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.aa: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.a.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.e: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n']
-graphs/benign/test1.txt:10:<dummyMainClass: com.facebook.ads.AudienceNetworkActivity dummyMainMethod_com_facebook_ads_AudienceNetworkActivity(android.content.Intent)> ==> ['<com.facebook.ads.AudienceNetworkActivity: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.a.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.e: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.aa: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.a.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.a: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.e: void <clinit>()>\n', '<android.view.View: void <clinit>()>\n', '<com.facebook.ads.internal.m.c.c.e: void <clinit>()>\n', '<android.app.Activity: void <clinit>()>\n']
-graphs/benign/test1.txt:12:<dummyMainClass: void dummyMainMethod(java.lang.String[])> ==> ['<dummyMainClass: com.ksmobile.launcher.theme.base.CommonWebActivity dummyMainMethod_com_ksmobile_launcher_theme_base_CommonWebActivity(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.notify.ThemeAlarmReceiver dummyMainMethod_com_ksmobile_launcher_notify_ThemeAlarmReceiver(android.content.Intent)>\n', '<dummyMainClass: com.appsflyer.MultipleInstallBroadcastReceiver dummyMainMethod_com_appsflyer_MultipleInstallBroadcastReceiver(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.internal.vastvideo.IncentiveVideoPlayActivity dummyMainMethod_com_cmcm_picks_internal_vastvideo_IncentiveVideoPlayActivity(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.internal.vastvideo.FullScreenVideoActivity dummyMainMethod_com_cmcm_picks_internal_vastvideo_FullScreenVideoActivity(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.adsdk.interstitial.PicksInterstitialActivity dummyMainMethod_com_cmcm_adsdk_interstitial_PicksInterstitialActivity(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.notify.SchedulingService dummyMainMethod_com_ksmobile_launcher_notify_SchedulingService(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.internal.vastvideo.VideoAdDetailActivity dummyMainMethod_com_cmcm_picks_internal_vastvideo_VideoAdDetailActivity(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.cmbase.utils.CampaignTrackingReceiver dummyMainMethod_com_ksmobile_launcher_cmbase_utils_CampaignTrackingReceiver(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.theme.base.result.ThemeResultActivity dummyMainMethod_com_ksmobile_launcher_theme_base_result_ThemeResultActivity(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.theme.base.result.c dummyMainMethod_com_ksmobile_launcher_theme_base_result_c(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.theme.base.DataCollectionActivity dummyMainMethod_com_ksmobile_launcher_theme_base_DataCollectionActivity(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.PicksLoadingActivity dummyMainMethod_com_cmcm_picks_PicksLoadingActivity(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.NotiActivity dummyMainMethod_com_cmcm_picks_NotiActivity(android.content.Intent)>\n', '<dummyMainClass: com.facebook.ads.InterstitialAdActivity dummyMainMethod_com_facebook_ads_InterstitialAdActivity(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.theme.base.s dummyMainMethod_com_ksmobile_launcher_theme_base_s(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.webview.PicksBrowser dummyMainMethod_com_cmcm_picks_webview_PicksBrowser(android.content.Intent)>\n', '<dummyMainClass: com.cmcm.picks.internal.vastvideo.VastReceiver dummyMainMethod_com_cmcm_picks_internal_vastvideo_VastReceiver(android.content.Intent)>\n', '<dummyMainClass: com.ksmobile.launcher.theme.ThemeActivity dummyMainMethod_com_ksmobile_launcher_theme_ThemeActivity(android.content.Intent)>\n', '<dummyMainClass: com.facebook.ads.AudienceNetworkActivity dummyMainMethod_com_facebook_ads_AudienceNetworkActivity(android.content.Intent)>\n']
-graphs/benign/test1.txt:17:<dummyMainClass: com.cmcm.adsdk.interstitial.PicksInterstitialActivity dummyMainMethod_com_cmcm_adsdk_interstitial_PicksInterstitialActivity(android.content.Intent)> ==> ['<com.cmcm.adsdk.interstitial.PicksInterstitialActivity: void <clinit>()>\n', '<android.app.Activity: void <clinit>()>\n']
-graphs/benign/test1.txt:18:<dummyMainClass: com.cmcm.picks.PicksLoadingActivity dummyMainMethod_com_cmcm_picks_PicksLoadingActivity(android.content.Intent)> ==> ['<com.cmcm.picks.PicksLoadingActivity: void <clinit>()>\n', '<android.app.Activity: void <clinit>()>\n']
-Markov.py:7:def dummycoding (imported,allnodes,wf):
-Markov.py:51:	(DCV)= dummycoding (imported,alln,wf)
-Binary file Markov.pyc matches
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Exception in thread "main" java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path '/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid/soot-trunk.jar' does not exist.
+	at soot.SourceLocator.getClassSourceType(SourceLocator.java:298)
+	at soot.SourceLocator.lookupInClassPath(SourceLocator.java:588)
+	at soot.asm.AsmClassProvider.find(AsmClassProvider.java:39)
+	at soot.SourceLocator.getClassSource(SourceLocator.java:176)
+	at soot.Scene.tryLoadClass(Scene.java:900)
+	at soot.Scene.loadBasicClasses(Scene.java:1652)
+	at soot.Scene.loadNecessaryClasses(Scene.java:1738)
+	at Appgraph.main(Appgraph.java:57)
+Caused by: java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path '/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid/soot-trunk.jar' does not exist.
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:526)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:487)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:83)
+	at com.google.common.util.concurrent.Uninterruptibles.getUninterruptibly(Uninterruptibles.java:196)
+	at com.google.common.cache.LocalCache$Segment.getAndRecordStats(LocalCache.java:2311)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2277)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2154)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2044)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3973)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4957)
+	at soot.SourceLocator.getClassSourceType(SourceLocator.java:296)
+	... 7 more
+Caused by: java.lang.Exception: Error: The path '/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid/soot-trunk.jar' does not exist.
+	at soot.SourceLocator$1.load(SourceLocator.java:69)
+	at soot.SourceLocator$1.load(SourceLocator.java:64)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3527)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2276)
+	... 13 more
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Exception in thread "main" java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path '/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid/soot-trunk.jar' does not exist.
+	at soot.SourceLocator.getClassSourceType(SourceLocator.java:298)
+	at soot.SourceLocator.lookupInClassPath(SourceLocator.java:588)
+	at soot.asm.AsmClassProvider.find(AsmClassProvider.java:39)
+	at soot.SourceLocator.getClassSource(SourceLocator.java:176)
+	at soot.Scene.tryLoadClass(Scene.java:900)
+	at soot.Scene.loadBasicClasses(Scene.java:1652)
+	at soot.Scene.loadNecessaryClasses(Scene.java:1738)
+	at Appgraph.main(Appgraph.java:57)
+Caused by: java.util.concurrent.ExecutionException: java.lang.Exception: Error: The path '/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid/soot-trunk.jar' does not exist.
+	at com.google.common.util.concurrent.AbstractFuture.getDoneValue(AbstractFuture.java:526)
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:487)
+	at com.google.common.util.concurrent.AbstractFuture$TrustedFuture.get(AbstractFuture.java:83)
+	at com.google.common.util.concurrent.Uninterruptibles.getUninterruptibly(Uninterruptibles.java:196)
+	at com.google.common.cache.LocalCache$Segment.getAndRecordStats(LocalCache.java:2311)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2277)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2154)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2044)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3973)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4957)
+	at soot.SourceLocator.getClassSourceType(SourceLocator.java:296)
+	... 7 more
+Caused by: java.lang.Exception: Error: The path '/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid/soot-trunk.jar' does not exist.
+	at soot.SourceLocator$1.load(SourceLocator.java:69)
+	at soot.SourceLocator$1.load(SourceLocator.java:64)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3527)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2276)
+	... 13 more
