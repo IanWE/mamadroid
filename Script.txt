@@ -1,70 +1,26 @@
-https://gist.github.com/maxvonhippel/9df5d30beca2dea0a92ddac30b59e436, this is the way to address some soot's problem.
-Getting started with MaMaDroid on Mac OS
- runmamadroid.sh
-# Clone MamaDroid
-git clone https://bitbucket.org/gianluca_students/mamadroid_code.git mamadroid
-# Get some malware to look at
-git clone https://github.com/ashishb/android-malware.git malware
-# Export variables
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin/
-export JRE_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/bin
-export PATH=$JAVA_HOME:$JRE_HOME:$PATH
-# Base dir variable for convenience
-basedir=$(echo $(pwd)/mamadroid)
-cd mamadroid
-mv soot_jars soot
-cd soot
-# axml-2.0.jar
-wget https://github.com/secure-software-engineering/soot-infoflow-android/raw/develop/lib/axml-2.0.jar
-# slf4j-api-1.7.5.jar
-wget https://github.com/secure-software-engineering/soot-infoflow-android/raw/b436c512431d875a0bb3c53ea55bbdb137c0aab0/lib/slf4j-api-1.7.5.jar
-# slf4j-simple-1.7.5.jar
-wget https://github.com/secure-software-engineering/soot-infoflow-android/raw/b436c512431d875a0bb3c53ea55bbdb137c0aab0/lib/slf4j-simple-1.7.5.jar
-# soot-infoflow-android.jar should already be in there
-# soot-infoflow.jar should already be in there
-# soot-trunk.jar should already be in there
-# SourcesAndSinks.txt
-wget https://raw.githubusercontent.com/secure-software-engineering/soot-infoflow-android/develop/SourcesAndSinks.txt
-# AndroidCallbacks.txt
-wget https://raw.githubusercontent.com/0-14N/soot-infoflow-android/master/AndroidCallbacks.txt
-# EasyTaintWrapperSource.txt
-wget https://raw.githubusercontent.com/secure-software-engineering/soot-infoflow/develop/EasyTaintWrapperSource.txt
-# Export classpath for java
-export CLASSPATH="$basedir/.:$basedir/soot/soot-trunk.jar:$basedir/soot/soot-infoflow.jar:$basedir/soot/soot-infoflow-android.jar:$basedir/soot/slf4j-simple-1.7.5.jar:$basedir/soot/slf4j-api-1.7.5.jar:$basedir/soot/axml-2.0.jar:$basedir/soot/sootclasses-trunk-jar-with-dependencies.jar"
-cd ..
-# Compile Appgraph
-javac -cp $CLASSPATH Appgraph.java
-export ANDORID_JARS=$HOME/Library/Android/sdk/platforms
-# Get DroidBench
-cd ..
-git clone https://github.com/secure-software-engineering/DroidBench.git
-cd mamadroid
-# Add DroidBench path
-export DROIDBENCH=$HOME/DroidBench
-# Now we try it on an app
-badapp=../android-malware/Android.Malware.at_plapk.a/com.fdhgkjhrtjkjbx.model.apk
-python2 mamadroid.py -f $badapp -d $ANDORID_JARS
-# A ton of stuff gets output
-less com.fdhgkjhrtjkjbx.model.txt
 # ^^ Presumably this file is what I will be able to do something interesting with using MaMaDroid once I learn how it works
----------------------------------------------------------------------------------------------------------------------------
-#For convinence, put these into you ~/.bashrc files， and excute `source ~/.bashrc`
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/
-export JRE_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/bin/
-export PATH=/home/RaidDisk/nkrepo/jianwen/android-studio/bin:$JAVA_HOME:$JRE_HOME:$PATH
-export ANDROID_JARS=/home/wz/Android/Sdk/platforms/
-
-Your platform directory should contain all platforms
-
-#This command will create some dirs in `pwd`/test/, move the graph dir out from test/
-python mamadroid.py -f `pwd`/test/ -d $ANDROID_JARS # `pwd`/test/ is the directory to store samples
-mv `pwd`/test/graphs .
-mkdir graphs/benign/&&mv graphs/* graphs/benign/ #According to their code, you have to do this.
-python MaMaStat.py -d benign #
-
 ===============================================================================
 Old version soot is not suitable for new emerging apk
-
 Compile new version soot, and change the entryPointCreator as public or add a getEntrypointer function.
+---------------------------------------------------------------------------------------------------------------------------
+
+#For convinence, put these into you ~/.bashrc files， and excute `source ~/.bashrc`
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/bin/
+export JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/
+export PATH=$JAVA_HOME:$JRE_HOME:$PATH
+export DROIDBENCH=/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/DroidBench
+export basedir=/media/nkamg/8f713913-d8f1-4474-a169-c50d222ae82e/data/experiment_QiuKefan/2020_6_14/feature_extracting/mamadroid
+export CLASSPATH=$basedir/.:$basedir/soot/soot-infoflow-android-classes-javadoc.jar:$basedir/soot/soot-infoflow-android-classes-source.jar:$basedir/soot/soot-infoflow-android-classes.jar:$basedir/soot/soot-infoflow-summaries-jar-with-dependencies.jar
+export ANDROID_HOME=/home/nkamg/Android
+export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH
+export ANDROID_JARS=/home/nkamg/Android/Sdk/platforms/
+javac -cp $CLASSPATH Appgraph.java
+
+#Your platform directory should contain all platforms
+
+#This command will create some dirs in `pwd`/test/, move the graph dir out from test/
+python mamadroid.py -f `pwd`/benign/ -d $ANDROID_JARS # `pwd`/test/ is the directory to store samples
+python MaMaStat.py -d benign #
+
 
 
